@@ -1,0 +1,12 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Operating System
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Project notes
+PROJECT_NOTES.md
