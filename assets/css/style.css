@@ -210,3 +210,44 @@ body {
     opacity: .85;
 
 }
+
+
+/* ==========================
+   Hero section
+   ========================== */
+
+.hero{
+    padding:100px 0;
+}
+
+.hero .container{
+    display:flex;
+
+}
+
+
+.hero .container{
+    display:flex;
+    align-items:center;
+    gap:60px;
+
+}
+
+
+.hero-content{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+
+}
+
+.hero-content{
+    flex:1;
+}
+
+
+.hero-image{
+    flex:1;
+
+}
+
