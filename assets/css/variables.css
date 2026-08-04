@@ -1,0 +1,18 @@
+:root {
+
+    /* Colors */
+    --primary-bg: #0b0b0b;
+    --secondary-bg: #161616;
+    --accent-color: #c9a227;
+    --text-color: #ffffff;
+    --gray-text: #b5b5b5;
+
+
+    /* Typography */
+    --font-primary: Arial, sans-serif;
+
+
+    /* Spacing */
+    --container-width: 1200px;
+
+}

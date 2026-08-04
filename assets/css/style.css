@@ -5,10 +5,11 @@
 }
 
 
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #111;
-    color: white;
+    font-family: var(--font-primary);
+    background-color: var(--primary-bg);
+    color: var(--text-color);
 }
 
 
