@@ -62,3 +62,151 @@ body {
     border-radius: 5px;
     font-weight: bold;
 }
+
+/* ==========================
+   Header
+========================== */
+
+.header {
+
+    background-color: var(--primary-bg);
+
+    padding: 20px 0;
+
+    border-bottom: 1px solid #2a2a2a;
+
+}
+
+.header .container {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 30px;
+
+}
+
+
+/* ==========================
+   Logo
+========================== */
+
+.logo {
+
+    color: var(--text-color);
+
+    text-decoration: none;
+
+    font-size: 30px;
+
+    font-weight: bold;
+
+}
+
+
+/* ==========================
+   Navigation
+========================== */
+
+.navigation ul {
+
+    display: flex;
+
+    list-style: none;
+
+    gap: 30px;
+
+}
+
+.navigation a {
+
+    color: var(--text-color);
+
+    text-decoration: none;
+
+    transition: .3s;
+
+}
+
+.navigation a:hover {
+
+    color: var(--accent-color);
+
+}
+
+
+/* ==========================
+   Search
+========================== */
+
+.search input {
+
+    width: 220px;
+
+    padding: 10px 15px;
+
+    border: 1px solid #444;
+
+    border-radius: 5px;
+
+    background-color: var(--secondary-bg);
+
+    color: var(--text-color);
+
+}
+
+.search input::placeholder {
+
+    color: var(--gray-text);
+
+}
+
+
+/* ==========================
+   Header Actions
+========================== */
+
+.header-actions {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+
+}
+
+.phone {
+
+    color: var(--text-color);
+
+    text-decoration: none;
+
+}
+
+.btn {
+
+    background-color: var(--accent-color);
+
+    color: #000;
+
+    text-decoration: none;
+
+    padding: 12px 22px;
+
+    border-radius: 5px;
+
+    font-weight: bold;
+
+    transition: .3s;
+
+}
+
+.btn:hover {
+
+    opacity: .85;
+
+}
