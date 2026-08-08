@@ -28,3 +28,15 @@
 }
 
 
+/* About */
+
+/* X Desktop - X tablet - * Mobile */
+
+@media (max-width: 768px) {
+
+    .about .container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+}
