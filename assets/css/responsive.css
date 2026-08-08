@@ -1,3 +1,5 @@
+
+/*desktop*/
 @media(max-width:768px){
 
     .hero .container{
@@ -6,7 +8,7 @@
     }
 }
 
-
+/*tablet*/
 @media (max-width: 992px) {
 
     .vehicles-grid {
@@ -15,7 +17,7 @@
 
 }
 
-
+/*mobil*/
 
 @media (max-width: 768px) {
 
