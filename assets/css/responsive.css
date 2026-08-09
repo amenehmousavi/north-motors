@@ -40,3 +40,16 @@
     }
 
 }
+
+
+
+@media (max-width: 768px) {
+
+    .contact .container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+}
+
+
