@@ -55,29 +55,12 @@
 
 
 /*Footer*/
-@media(max-width:768px){
 
-    .footer .container{
-        flex-direction:column;
-
-    }
-}
-
-/*tablet*/
-@media (max-width: 992px) {
-
-    .footer .container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-}
-
-/*mobil*/
-
+/* Mobile */
 @media (max-width: 768px) {
 
-    .footer .container {
-        grid-template-columns: 1fr;
-    }
+.footer .container {
+    grid-template-columns: 1fr;
+    gap: 40px;
 
 }
